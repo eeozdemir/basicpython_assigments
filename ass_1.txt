@@ -1,0 +1,7 @@
+name = str(input("Lutfen adinizi giriniz: ")) 
+ad = ("Joseph") 
+
+if name == ad: 
+    print("Hello, Joseph! The password is : W@12") 
+else: 
+    print("Hello, Amina! See you later.")

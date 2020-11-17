@@ -1,0 +1,29 @@
+number = (input("Please enter a number:"))
+
+
+
+while number.isnumeric() == False:
+
+    print("Incorrect entry!")
+
+    number = input("Sorry! It was my fault. Please enter a pozitive integer number:")
+
+
+
+number = int(number)
+
+new_num = [int(b) for b in str(number)] 
+
+a=0
+
+for i in new_num:
+
+    a += (i**len(new_num))
+
+if a==number:
+
+    print("Congrats! It is a n-Armstong number")
+
+else:
+
+    print("Uugh! It is not a n-Armstong number")
